@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/www/mmrglab/public_html/
+    - /bin/cp -R ./ $DEPLOYPATH
